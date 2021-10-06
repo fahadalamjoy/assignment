@@ -1,0 +1,38 @@
+body {
+  color: red;
+}
+
+.section {
+  display: flex;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.card {
+  background-color: antiquewhite;
+  cursor: pointer;
+  padding-right: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.cart {
+  width: 100%;
+  margin-left: 200px;
+  background-color: beige;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  width: 150px;
+  height: 150px;
+}
+.add {
+  display: flex;
+  margin-top: 10px;
+}
+.addimage {
+  width: 50px;
+  height: 50px;
+}
